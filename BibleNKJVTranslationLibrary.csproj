@@ -1,80 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<Version>7.0.1</Version>
+    <Version>9.0.1</Version>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
-		<PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
-	</ItemGroup>
-	<ItemGroup>
-		<AdditionalFiles Include="Resources\NKJV 1 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 John.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Kings.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Peter.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Samuel.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NKJV 1 Timothy.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 John.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Kings.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Peter.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Samuel.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NKJV 2 Timothy.json" />
-		<AdditionalFiles Include="Resources\NKJV 3 John.json" />
-		<AdditionalFiles Include="Resources\NKJV Acts.json" />
-		<AdditionalFiles Include="Resources\NKJV Amos.json" />
-		<AdditionalFiles Include="Resources\NKJV Colossians.json" />
-		<AdditionalFiles Include="Resources\NKJV Daniel.json" />
-		<AdditionalFiles Include="Resources\NKJV Deuteronomy.json" />
-		<AdditionalFiles Include="Resources\NKJV Ecclesiastes.json" />
-		<AdditionalFiles Include="Resources\NKJV Ephesians.json" />
-		<AdditionalFiles Include="Resources\NKJV Esther.json" />
-		<AdditionalFiles Include="Resources\NKJV Exodus.json" />
-		<AdditionalFiles Include="Resources\NKJV Ezekiel.json" />
-		<AdditionalFiles Include="Resources\NKJV Ezra.json" />
-		<AdditionalFiles Include="Resources\NKJV Galatians.json" />
-		<AdditionalFiles Include="Resources\NKJV Genesis.json" />
-		<AdditionalFiles Include="Resources\NKJV Habakkuk.json" />
-		<AdditionalFiles Include="Resources\NKJV Haggai.json" />
-		<AdditionalFiles Include="Resources\NKJV Hebrews.json" />
-		<AdditionalFiles Include="Resources\NKJV Hosea.json" />
-		<AdditionalFiles Include="Resources\NKJV Isaiah.json" />
-		<AdditionalFiles Include="Resources\NKJV James.json" />
-		<AdditionalFiles Include="Resources\NKJV Jeremiah.json" />
-		<AdditionalFiles Include="Resources\NKJV Job.json" />
-		<AdditionalFiles Include="Resources\NKJV Joel.json" />
-		<AdditionalFiles Include="Resources\NKJV John.json" />
-		<AdditionalFiles Include="Resources\NKJV Jonah.json" />
-		<AdditionalFiles Include="Resources\NKJV Joshua.json" />
-		<AdditionalFiles Include="Resources\NKJV Jude.json" />
-		<AdditionalFiles Include="Resources\NKJV Judges.json" />
-		<AdditionalFiles Include="Resources\NKJV Lamentations.json" />
-		<AdditionalFiles Include="Resources\NKJV Leviticus.json" />
-		<AdditionalFiles Include="Resources\NKJV Luke.json" />
-		<AdditionalFiles Include="Resources\NKJV Malachi.json" />
-		<AdditionalFiles Include="Resources\NKJV Mark.json" />
-		<AdditionalFiles Include="Resources\NKJV Matthew.json" />
-		<AdditionalFiles Include="Resources\NKJV Micah.json" />
-		<AdditionalFiles Include="Resources\NKJV Nahum.json" />
-		<AdditionalFiles Include="Resources\NKJV Nehemiah.json" />
-		<AdditionalFiles Include="Resources\NKJV Numbers.json" />
-		<AdditionalFiles Include="Resources\NKJV Obadiah.json" />
-		<AdditionalFiles Include="Resources\NKJV Philemon.json" />
-		<AdditionalFiles Include="Resources\NKJV Philippians.json" />
-		<AdditionalFiles Include="Resources\NKJV Proverbs.json" />
-		<AdditionalFiles Include="Resources\NKJV Psalm.json" />
-		<AdditionalFiles Include="Resources\NKJV Revelation.json" />
-		<AdditionalFiles Include="Resources\NKJV Romans.json" />
-		<AdditionalFiles Include="Resources\NKJV Ruth.json" />
-		<AdditionalFiles Include="Resources\NKJV Song of Solomon.json" />
-		<AdditionalFiles Include="Resources\NKJV Titus.json" />
-		<AdditionalFiles Include="Resources\NKJV Zechariah.json" />
-		<AdditionalFiles Include="Resources\NKJV Zephaniah.json" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
+    <PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Resources\NKJV 1 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 John.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Kings.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Peter.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Samuel.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NKJV 1 Timothy.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 John.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Kings.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Peter.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Samuel.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NKJV 2 Timothy.json" />
+    <AdditionalFiles Include="Resources\NKJV 3 John.json" />
+    <AdditionalFiles Include="Resources\NKJV Acts.json" />
+    <AdditionalFiles Include="Resources\NKJV Amos.json" />
+    <AdditionalFiles Include="Resources\NKJV Colossians.json" />
+    <AdditionalFiles Include="Resources\NKJV Daniel.json" />
+    <AdditionalFiles Include="Resources\NKJV Deuteronomy.json" />
+    <AdditionalFiles Include="Resources\NKJV Ecclesiastes.json" />
+    <AdditionalFiles Include="Resources\NKJV Ephesians.json" />
+    <AdditionalFiles Include="Resources\NKJV Esther.json" />
+    <AdditionalFiles Include="Resources\NKJV Exodus.json" />
+    <AdditionalFiles Include="Resources\NKJV Ezekiel.json" />
+    <AdditionalFiles Include="Resources\NKJV Ezra.json" />
+    <AdditionalFiles Include="Resources\NKJV Galatians.json" />
+    <AdditionalFiles Include="Resources\NKJV Genesis.json" />
+    <AdditionalFiles Include="Resources\NKJV Habakkuk.json" />
+    <AdditionalFiles Include="Resources\NKJV Haggai.json" />
+    <AdditionalFiles Include="Resources\NKJV Hebrews.json" />
+    <AdditionalFiles Include="Resources\NKJV Hosea.json" />
+    <AdditionalFiles Include="Resources\NKJV Isaiah.json" />
+    <AdditionalFiles Include="Resources\NKJV James.json" />
+    <AdditionalFiles Include="Resources\NKJV Jeremiah.json" />
+    <AdditionalFiles Include="Resources\NKJV Job.json" />
+    <AdditionalFiles Include="Resources\NKJV Joel.json" />
+    <AdditionalFiles Include="Resources\NKJV John.json" />
+    <AdditionalFiles Include="Resources\NKJV Jonah.json" />
+    <AdditionalFiles Include="Resources\NKJV Joshua.json" />
+    <AdditionalFiles Include="Resources\NKJV Jude.json" />
+    <AdditionalFiles Include="Resources\NKJV Judges.json" />
+    <AdditionalFiles Include="Resources\NKJV Lamentations.json" />
+    <AdditionalFiles Include="Resources\NKJV Leviticus.json" />
+    <AdditionalFiles Include="Resources\NKJV Luke.json" />
+    <AdditionalFiles Include="Resources\NKJV Malachi.json" />
+    <AdditionalFiles Include="Resources\NKJV Mark.json" />
+    <AdditionalFiles Include="Resources\NKJV Matthew.json" />
+    <AdditionalFiles Include="Resources\NKJV Micah.json" />
+    <AdditionalFiles Include="Resources\NKJV Nahum.json" />
+    <AdditionalFiles Include="Resources\NKJV Nehemiah.json" />
+    <AdditionalFiles Include="Resources\NKJV Numbers.json" />
+    <AdditionalFiles Include="Resources\NKJV Obadiah.json" />
+    <AdditionalFiles Include="Resources\NKJV Philemon.json" />
+    <AdditionalFiles Include="Resources\NKJV Philippians.json" />
+    <AdditionalFiles Include="Resources\NKJV Proverbs.json" />
+    <AdditionalFiles Include="Resources\NKJV Psalm.json" />
+    <AdditionalFiles Include="Resources\NKJV Revelation.json" />
+    <AdditionalFiles Include="Resources\NKJV Romans.json" />
+    <AdditionalFiles Include="Resources\NKJV Ruth.json" />
+    <AdditionalFiles Include="Resources\NKJV Song of Solomon.json" />
+    <AdditionalFiles Include="Resources\NKJV Titus.json" />
+    <AdditionalFiles Include="Resources\NKJV Zechariah.json" />
+    <AdditionalFiles Include="Resources\NKJV Zephaniah.json" />
+  </ItemGroup>
 </Project>
