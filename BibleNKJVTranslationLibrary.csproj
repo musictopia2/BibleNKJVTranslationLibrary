@@ -9,8 +9,8 @@
     <FeedType>Public</FeedType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CommonBasicLibraries" Version="10.0.1" />
-    <PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="CommonBasicLibraries" Version="10.0.13" />
+    <PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.6" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="Resources\NKJV 1 Chronicles.json" />
